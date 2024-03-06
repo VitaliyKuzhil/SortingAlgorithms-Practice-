@@ -15,4 +15,5 @@ def selection_sort(sequence):
     return sequence
 
 
-print(f'selection_sort: {selection_sort(list_digits)}')
+if __name__ == '__main__':
+    print(f'selection_sort: {selection_sort(list_digits)}')
